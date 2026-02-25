@@ -1,9 +1,22 @@
-export { quercleSearch, quercleFetch, createQuercleTools } from "./tools.js";
+export {
+	quercleSearch,
+	quercleFetch,
+	quercleRawSearch,
+	quercleRawFetch,
+	quercleExtract,
+	createQuercleTools,
+} from "./tools.js";
 
 // Re-export types from @quercle/sdk for convenience
 export type {
-	QuercleConfig,
+	QuercleClientOptions,
 	SearchOptions,
 	SearchResponse,
 	FetchResponse,
+	RawSearchOptions,
+	RawSearchResponse,
+	RawFetchOptions,
+	RawFetchResponse,
+	ExtractOptions,
+	ExtractResponse,
 } from "@quercle/sdk";
