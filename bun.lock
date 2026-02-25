@@ -5,15 +5,16 @@
     "": {
       "name": "@quercle/langchain",
       "dependencies": {
-        "@quercle/sdk": "^0.2.4",
+        "@quercle/sdk": "^1.0.0",
+        "zod": "^3.25.76",
       },
       "devDependencies": {
-        "@biomejs/biome": "^1.9.0",
-        "@langchain/core": "^0.3.0",
-        "@types/bun": "^1.3.3",
-        "@types/node": "^22.0.0",
-        "knip": "^5.0.0",
-        "typescript": "^5.7.0",
+        "@biomejs/biome": "^1.9.4",
+        "@langchain/core": "^0.3.80",
+        "@types/bun": "^1.3.8",
+        "@types/node": "^22.19.7",
+        "knip": "^5.82.1",
+        "typescript": "^5.9.3",
       },
       "peerDependencies": {
         "@langchain/core": ">=0.3.0",
@@ -97,7 +98,7 @@
 
     "@oxc-resolver/binding-win32-x64-msvc": ["@oxc-resolver/binding-win32-x64-msvc@11.17.0", "", { "os": "win32", "cpu": "x64" }, "sha512-pX6s2kMXLQg+hlqKk5UqOW09iLLxnTkvn8ohpYp2Mhsm2yzDPCx9dyOHiB/CQixLzTkLQgWWJykN4Z3UfRKW4Q=="],
 
-    "@quercle/sdk": ["@quercle/sdk@0.2.5", "", { "dependencies": { "zod": "^3.24.1" } }, "sha512-VvqmRt/lutWQUg0Do4N1EAWOhqznc7qDpQpzuLgbPxmvb0/uY1xB+Orkp2DZL5q542cca8nglVkbwkEUHj7daA=="],
+    "@quercle/sdk": ["@quercle/sdk@1.0.5", "", {}, "sha512-E1ggL+PP6fmPZ5JJhRm62gedZBkUTB2dO783EKWE6oCFed5sNMIENxFlgAVz9Dlq91y+x7O8331g5KwPSiNCww=="],
 
     "@tybys/wasm-util": ["@tybys/wasm-util@0.10.1", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg=="],
 
