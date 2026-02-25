@@ -15,7 +15,7 @@ TypeScript package integrating Quercle web tools with LangChain.js. Provides 5 t
 ## Quercle API
 
 ### Authentication
-- Header: `X-API-Key: qk_...`
+- Header: `Authorization: Bearer qk_...`
 - Env var: `QUERCLE_API_KEY`
 
 ### Endpoints
